@@ -6,6 +6,7 @@ import android.net.NetworkInfo;
 
 public class CheckInternetConnection {
 
+    
     public static int TYPE_WIFI 		 = 1;
     public static int TYPE_MOBILE 		 = 2;
     public static int TYPE_NOT_CONNECTED = 0;
