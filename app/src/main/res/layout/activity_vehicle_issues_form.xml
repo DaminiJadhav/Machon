@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.issues.ActivityVehicleIssuesForm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/toolbar_curve_shape"
+        android:gravity="center"
+        android:id="@+id/txt_toolbar"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/mechon"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/mobile_number"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:maxLength="10"
+                android:id="@+id/ediitxt_mobileNumber" />
+
+
+          <!--  <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/location"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:id="@+id/edittxt_location" />
+-->
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/vehicle_number"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:id="@+id/edittxt_vehicle_number" />
+
+            <!--<EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/vehicle_type"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:id="@+id/edittxt_vehicle_type" />-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:padding="@dimen/_2sdp"
+                android:background="@drawable/edit_text_border"
+                >
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_height="@dimen/_30sdp"
+                android:id="@+id/spinner_vehicle_type" />
+
+<!--                style="@style/SpinnerTheme"-->
+<!--                android:background="@drawable/ic_arrow_down_10"-->
+
+
+
+                <!--                <ImageView-->
+<!--                    android:layout_width="@dimen/_20sdp"-->
+<!--                    android:layout_height="@dimen/_20sdp"-->
+<!--                    android:src="@drawable/ic_email"-->
+<!--                    android:layout_marginRight="@dimen/_20sdp"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerInParent="true"/>-->
+
+
+            </RelativeLayout>
+
+
+
+            <!-- <EditText
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="@dimen/_10sdp"
+                 android:layout_marginTop="@dimen/_15sdp"
+                 android:background="@drawable/edit_text_border"
+                 android:hint="@string/vehicle_garage_type"
+                 android:textSize="@dimen/_14sdp"
+                 android:textColor="@color/black"
+                 android:id="@+id/edittxt_garage_type" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:weightSum="1"
+                android:background="@drawable/edit_text_border">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/select_your_problem"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:id="@+id/choose_problem"
+                    android:drawableRight="@drawable/ic_arrow_forward_24"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/choose"/>
+            </LinearLayout>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:divider="@null"
+                android:id="@+id/rv_selected_problem"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/enter_your_problem"
+                android:visibility="gone"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:id="@+id/edittxt_enter_your_problem" />
+
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="@dimen/_10sdp"-->
+<!--                android:layout_marginTop="@dimen/_15sdp"-->
+<!--                android:background="@drawable/edit_text_border"-->
+<!--                android:hint="@string/enter_your_problem"-->
+<!--                android:textSize="@dimen/_14sdp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:id="@+id/edittxt_enter_problem"-->
+<!--                />-->
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/description"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:id="@+id/edittxt_description"
+
+                />
+
+            <Button
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:id="@+id/btn_submit"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:visibility="gone"
+        android:id="@+id/button_test"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:id="@+id/iv_sdaemon_logo"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:src="@drawable/ic_garage"/>
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/iv_sdaemon_logo"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginRight="@dimen/_20sdp"-->
+<!--        android:src="@drawable/ic_car_repair"/>-->
+
+
+</RelativeLayout>

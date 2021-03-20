@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_Elevation">5dp</dimen>
+    <dimen name="card_contentPadding">5dp</dimen>
+    <dimen name="card_CornerRadius">6dp</dimen>
+
+
+    <dimen name="padding_10dp">10dp</dimen>
+
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_30dp">30dp</dimen>
+
+    <dimen name="padding_40dp">40dp</dimen>
+    <dimen name="padding_60dp">60dp</dimen>
+    <dimen name="padding_100dp">100dp</dimen>
+
+
+
+
+
+
+    <dimen name="margin_10dp">10dp</dimen>
+
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+
+    <dimen name="margin_30dp">30dp</dimen>
+
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_60dp">60dp</dimen>
+    <dimen name="margin_100dp">100dp</dimen>
+
+
+
+</resources>

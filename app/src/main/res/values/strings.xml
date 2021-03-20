@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Machon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mechon">Mechon</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyC_frIldpyoysQZE1pqGVIfBS9_9n1m4zM
+    </string>
+
+    <string name="mobile_number">Mobile Number<font color="@color/red"> *</font></string>
+    <string name="password">Password<font color="@color/red"> *</font></string>
+
+    <string name="login_mobile_number">Mobile Number</string>
+    <string name="login_password">Password</string>
+
+    <string name="login">Login</string>
+    <string name="or">or</string>
+    <string name="otp">OTP</string>
+
+    <string name="forget_passwrod">Forget Password?</string>
+    <string name="dont_have_account">Don\'t have an account yet?</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="something_went_wrong">Something went wrong</string>
+
+    <string name="lets_get_to_know_you">Let\'s get to know you</string>
+    <string name="find_the_place_which_belongs">Find the place which belongs to you</string>
+    <string name="user">User</string>
+    <string name="Mechanic">Mechanic</string>
+    <string name="next">Next</string>
+    <string name="firstName">First Name<font color="@color/red"> *</font></string>
+    <string name="middleName">Middle Name</string>
+    <string name="lastName">Last Name<font color="@color/red"> *</font></string>
+    <string name="email_id">Email-Id<font color="@color/red"> *</font></string>
+
+
+    <string name="dob">DOB</string>
+
+    <string name="garriage_name">Garriage name<font color="@color/red"> *</font></string>
+    <string name="garriage_person_name">Person name<font color="@color/red"> *</font></string>
+    <string name="garriage_contact">Contact no.<font color="@color/red"> *</font></string>
+    <string name="garriage_address">Address<font color="@color/red"> *</font></string>
+    <string name="garriage_no_of_mechanic">No of mechanic</string>
+    <string name="garriage_mechanic_name">Mechanic Name<font color="@color/red"> *</font></string>
+    <string name="garriage_mechanic_number">Mechanic number<font color="@color/red"> *</font></string>
+
+    <string name="dashboard">Dashboard</string>
+
+
+    <string name="bank_name">Bank Name<font color="@color/red"> *</font></string>
+    <string name="account_no">Account No<font color="@color/red"> *</font></string>
+    <string name="ifsc_code">IFSC Code<font color="@color/red"> *</font></string>
+    <string name="upi_payment_id">UPI Payment Id<font color="@color/red"> *</font></string>
+    <string name="upi_payment_no">UPI Payment No<font color="@color/red"> *</font></string>
+
+    <string name="we_sent_otp">We have sent an OTP on your</string>
+    <string name="mobile">9876654487</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="request_accept">Accept</string>
+    <string name="request_reject">Reject</string>
+
+
+    <string name="vehicle_number">Vehicle number<font color="@color/red"> *</font></string>
+    <string name="vehicle_type">Vehicle Type<font color="@color/red"> *</font></string>
+    <string name="location">Location</string>
+    <string name="vehicle_garage_type">Garage Type</string>
+    <string name="select_your_problem">Select your problem<font color="@color/red"> *</font></string>
+    <string name="select_your_problem1">Select your problem</string>
+
+    <string name="enter_your_problem">Enter your problem<font color="@color/red"> *</font></string>
+    <string name="description">Description</string>
+
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="save">Save</string>
+    <string name="choose">Choose</string>
+    <string name="select">Select</string>
+    <string name="send_request">Send Request</string>
+
+    <string name="verify">Verify</string>
+    <string name="garage_location">Garage Location</string>
+
+    //validation
+
+    <string name="please_enter_first_name">Please Enter First Name</string>
+    <string name="please_enter_middle_name">Please Enter Middle Name</string>
+    <string name="please_enter_last_name">Please Enter Last Name</string>
+    <string name="please_enter_email_id">Please Enter Valid Email Id</string>
+    <string name="please_enter_password">Please Enter Password</string>
+    <string name="please_enter_minimum_6_character">Please Enter Password</string>
+
+    <string name="please_enter_mobile_no">Please Enter Valid Mobile Number</string>
+    <string name="please_enter_dob">Please Enter  DOB</string>
+    <string name="success">Success</string>
+
+    <string name="please_check_internet_connection">Please check internet connection</string>
+    <string name="search">Search</string>
+    <string name="confirm">Confirm</string>
+    <string name="your_selected_location">Your selected location is</string>
+
+    <string name="please_enter_garage_name">Please Enter Garage Name</string>
+    <string name="please_enter_person_name">Please Enter Person Name</string>
+    <string name="please_enter_contact_no">Please Enter Valid Contact No</string>
+    <string name="please_enter_address">Please Enter Address</string>
+    <string name="please_enter_no_of_mechanic">Please Enter No Of Mechanic</string>
+    <string name="please_enter_mechanic_name">Please Enter Mechanic Name</string>
+    <string name="please_enter_mechanic_number">Please Enter Valid Mechanic Number</string>
+    <string name="please_enter_bank_name">Please Enter Bank Name</string>
+    <string name="please_enter_account_no">Please Enter Account no.</string>
+    <string name="please_enter_ifsc_code">Please Enter IFSC Code</string>
+    <string name="please_enter_payment_id">Please Enter Payment ID</string>
+    <string name="please_enter_payment_no">Please Enter Payment No</string>
+
+
+    <string name="please_enter_location">Please Enter Location</string>
+    <string name="plase_enter_vehicle_no">Please Enter Address</string>
+    <string name="please_enter_vehicle_number">Please Enter Vehicle Number</string>
+    <string name="please_enter_vehicle_type">Please Select Vehicle Type</string>
+    <string name="please_select_your_problem">Please Select Your Problem</string>
+    <string name="please_select_garage_type">Please Select Garage Type</string>
+
+    <string name="please_enter_your_problem">Please Enter Your Problem</string>
+    <string name="please_write_description">Please Write Description</string>
+
+    <string name="select_garage_type">Select Garage Type</string>
+
+//firebase
+
+    <string name="default_notification_channel_id">Notification</string>
+
+    <string name="please_enter_new_password">Please Enter New Password</string>
+    <string name="please_enter_confirm_password">Please Enter Confirm Password</string>
+    <string name="please_enter_same_password">Your password and confirmation password do not match</string>
+    <string name="enter_at_least_6_digit">You have to enter at least 6 digit!</string>
+
+    <string name="direction">Direction</string>
+    <string name="retry">Retry</string>
+
+
+    <string name="facebook_app_id">225181915650285</string>
+    <string name="fb_login_protocol_scheme">fb225181915650285</string>
+
+
+</resources>
